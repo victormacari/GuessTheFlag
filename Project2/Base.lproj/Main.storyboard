@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgZ-DP-W2f">
                                 <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DgZ-DP-W2f" secondAttribute="height" multiplier="112:57" id="Vae-3j-GCF"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -26,6 +29,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7S-aJ-dXP">
                                 <rect key="frame" x="84.666666666666686" y="244" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="C7S-aJ-dXP" secondAttribute="height" multiplier="112:57" id="OvU-ew-ryn"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -34,6 +40,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGu-oB-eCj">
                                 <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yGu-oB-eCj" secondAttribute="height" multiplier="112:57" id="0kf-fV-Vdk"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -47,8 +56,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="DgZ-DP-W2f" secondAttribute="top" constant="3" id="Np5-vd-Vvd"/>
                             <constraint firstItem="yGu-oB-eCj" firstAttribute="centerX" secondItem="C7S-aJ-dXP" secondAttribute="centerX" id="Q12-5C-79C"/>
                             <constraint firstItem="C7S-aJ-dXP" firstAttribute="centerX" secondItem="DgZ-DP-W2f" secondAttribute="centerX" id="QX3-c9-qAc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yGu-oB-eCj" secondAttribute="bottom" constant="20" id="Ted-rx-0Sh"/>
+                            <constraint firstItem="yGu-oB-eCj" firstAttribute="height" secondItem="C7S-aJ-dXP" secondAttribute="height" id="dGr-D1-xnk"/>
                             <constraint firstItem="yGu-oB-eCj" firstAttribute="top" secondItem="C7S-aJ-dXP" secondAttribute="bottom" constant="30" id="eA6-BB-PGp"/>
                             <constraint firstItem="DgZ-DP-W2f" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="i1g-n6-CvN"/>
+                            <constraint firstItem="C7S-aJ-dXP" firstAttribute="height" secondItem="DgZ-DP-W2f" secondAttribute="height" id="n5v-sq-yVs"/>
                             <constraint firstItem="C7S-aJ-dXP" firstAttribute="top" secondItem="DgZ-DP-W2f" secondAttribute="bottom" constant="30" id="qBu-OZ-msC"/>
                         </constraints>
                     </view>
